@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-14T08:23:19.173Z",
+        "line": 4,
+        "name": "test search function",
+        "description": "",
+        "id": "xx;test-search-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6943000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open website: http://www.baidu.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": " http://www.baidu.com/",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinition.search_Steps.open_website_http_www_baidu_com(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "input the key word:selenium",
+            "match": {
+              "arguments": [
+                {
+                  "val": "selenium",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.search_Steps.input_the_key_word_selenium(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 424000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click the button",
+            "match": {
+              "location": "stepDefinition.search_Steps.click_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1933000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the result:百度为您找到相关结果约56,800,000个",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56,800,000",
+                  "offset": 22
+                }
+              ],
+              "location": "stepDefinition.search_Steps.the_key_word_selenium_appear(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "xx",
+    "description": "Description: xxx",
+    "id": "xx",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/search.feature",
+    "tags": []
+  }
+]
